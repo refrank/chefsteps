@@ -265,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/backgroundheader3.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -653,13 +653,27 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/contact2.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
     color: #fff;
+	font-size: 50px;
+}
+
+section#contact .contact-text {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+	color: #fed136;
+}
+
+section#contact .contact-info {
+    text-transform: lowercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+	color: #fed136;
 }
 
 section#contact .form-group {
@@ -726,6 +740,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+	text-align: center;
 }
 
 footer ul.quicklinks {
