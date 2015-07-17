@@ -350,6 +350,10 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+section#services .skills-copy {
+	text-align: justify;
+}
+
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
@@ -812,6 +816,7 @@ ul.social-buttons li a:active {
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+	text-align: center
 }
 
 .portfolio-modal .modal-content ul.list-inline {
