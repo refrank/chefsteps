@@ -735,6 +735,10 @@ footer {
     text-align: center;
 }
 
+.modal-body {
+	text-align: left;
+}
+
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
